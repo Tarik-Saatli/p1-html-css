@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boekingsformulier</title>
+</head>
+<body>
+<form action="result.html" method="">
+
+<label for="">Voornaam</label>
+<input type="type" name="firstname">
+<br>
+<label for="">Achternaam</label>
+<input type="type" name="surname">
+<br>
+<label for="">geslacht</label>
+<input type="radio" name="gender" checked value="man"> man
+<input type="radio" name="gender" value="vrouw"> vrouw
+<br>
+<label for="">straat met huisnummer</label>
+<input type="type" name="street">
+<br>
+<label for="">postcode</label>
+<input type="type" name="zipcode">
+<br>
+<label for="">stad</label>
+<input type="type" name="city">
+<br>
+<label for="">Land</label>
+<input type="type" name="country">
+<br>
+<label for="">BSN-nummer</label>
+<input type="type" name="ID" maxlength="9">
+<br>
+<label for="">Vakantieland kunnen selecteren</label>
+<select name="vacation" id="Choose a country">
+    <option value="Turkije">Turkije</option>
+    <option value="Rusland">Rusland</option>
+    <option value="Duitsland">Duitsland</option>
+</select>
+<br>
+<label for="">Datum van vertrek</label>
+<input type="date" name="Departure" min="2024-10-23">
+<br>
+<label for="">Datum van aankomst</label>
+<input type="date" name="Arrive" min="2024-10-23">
+<br>
+<label for="">Aantal reisgenoten</label>
+<input type="type" name="travelPeople" min="0" max="4">
+
+<br>
+<input type="submit" >
+<br>
+<label for="E-mail">email</label>
+<input type="email" name="E-mail">
+<br>
+<label for="password">wachtwoord</label>
+<input type="password" name="password">
+
+</form>
+
+
+</body>
+</html>
